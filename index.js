@@ -1,5 +1,6 @@
 // Load Node modules
 var express = require('express');
+var path = require('path');
 // Initialise Express
 var app = express();
 // Render static files
