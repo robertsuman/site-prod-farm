@@ -5,7 +5,7 @@ var app = express();
 // Render static files
 app.use(express.static('web'));
 app.get('/', (req, res) => {
-    res.sendFile('index.html', {root: '/web/'});
+    res.sendFile('index.html', {root: __dirname + '/web/'});
 });
 // Port website will run on
 app.listen(process.env.PORT || 8080)
