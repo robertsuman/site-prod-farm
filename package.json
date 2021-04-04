@@ -1,15 +1,15 @@
 {
   "name": "site-prod-farm",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "description": "site",
-  "author": {
-    "name": "Prod.farm"
-  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "4.17.1",
-    "path": "0.12.7"
+    "express": "4.17.1"
   }
 }
