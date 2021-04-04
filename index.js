@@ -5,4 +5,4 @@ var app = express();
 // Render static files
 app.use(express.static('web'));
 // Port website will run on
-app.listen(process.env.port);
+app.listen(process.env.PORT);
